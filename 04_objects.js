@@ -35,10 +35,33 @@ const user = [
     }
 ]
 // console.log(user[0].email);
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursname: "ja in hindi",
+    price: "999",
+    courseInstructor:"Nayeem"
+    
+}
+const {courseInstructor} = course
+console.log(courseInstructor);
+
+// API JSON FORMAT MAI HOTA HAI OR ARRAYS ME BHI HO SAKTA HAI
+
+// {
+//     "name":"anyeem",
+//     "coursename":"js in hindi",
+//     "price": "free",
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
